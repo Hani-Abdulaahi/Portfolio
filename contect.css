@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0, 0.8);
+
+}
+.menus{
+    display: flex;
+    justify-content: space-between;
+    line-height: 0%;
+    padding-bottom: 50px;
+    background-color: black;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    
+}
+.header h1{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    padding-top: 35px;
+}
+.header h1:hover{
+    transform: scale(1.1);
+}
+.menu ul{
+    display: flex;
+    padding-top: 35px;
+}
+.menu ul li{
+    list-style: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-right: 60px;
+}
+.menu a{
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.menu a:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+body{
+    background-color: rgb(0, 0, 0, 0.8);
+
+}
+.form{
+    color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+}
+.form span{
+    color: greenyellow;
+}
+.table{
+    text-align: center;
+    margin-top: 15px;
+}
+.lable1 input{
+    width: 420px;
+    height: 30px;
+    border: 2px solid greenyellow;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(128, 128, 128, 0.849);
+}
+.lable1 input:hover{
+    color: white;
+}
+.lable2 input{
+    width: 420px;
+    height: 30px;
+    border: 2px solid greenyellow;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(128, 128, 128, 0.849);
+    margin-top: 13px;
+}
+.lable2 input:hover{
+    color: white;
+}
+.lable3 input{
+    width: 420px;
+    height: 30px;
+    border: 2px solid greenyellow;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(128, 128, 128, 0.849);
+    margin-top: 13px;
+}
+.lable3 input:hover{
+    color: white;
+}
+.lable4 input{
+    width: 420px;
+    height: 30px;
+    border: 2px solid greenyellow;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(128, 128, 128, 0.849);
+    margin-top: 13px;
+}
+.lable4 input:hover{
+    color: white;
+}
+.lable5 input{
+    width: 420px;
+    height: 120px;
+    border: 2px solid greenyellow;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(128, 128, 128, 0.849);
+    margin-top: 13px;
+    padding-top: 0;
+}
+.lable5 input:hover{
+    color: white;
+}
+.ptnnn{
+    padding: 0.4rem 2rem;
+    background-color: greenyellow;
+    border-radius: 1rem;
+    font-size: 1em;
+    color: white;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 13px;
+}
+.ptnnn:hover{
+    transform: scale(1.0s);
+    box-shadow: 0 0 25px greenyellow;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+.iconss{
+    display: flex;
+    gap: 25px;
+    margin-top: 190px;
+    justify-content: center;
+    padding-top: 25px;
+}
+.iconss a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 0.1rem solid greenyellow;
+    font-size: 1.5em;
+    border-radius: 50%;
+    color: greenyellow;
+    transition: 0.3s ease-in-out;
+}
+.iconss a:hover{
+    color: white;
+    transform: scale(1.1)translateY(-5px);
+    box-shadow: 0 0 25px greenyellow;
+    background-color: black;
+}
+.menuu ul{
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+    margin-left: 400px;
+}
+.menuu ul li{
+    list-style: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.menuu a{
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.menuu a:hover{
+    transform: scale(1.1);
+}
+.footer p{
+    color: white;
+    margin-top: 50px;
+    margin-left: 520px;
+}
